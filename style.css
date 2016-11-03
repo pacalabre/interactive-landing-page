@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:700|Raleway:700|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:700|Raleway:700|Shrikhand|Lato:700|Varela+Round');
 
 /*Color Values to Use:
 #0cdeb0
@@ -55,12 +55,13 @@ html, body {
 }
 
 .section-header {
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Shrikhand','Raleway', sans-serif;
   font-weight: 700;
   padding-top: 120px;
+  color: #003b40;
 }
 
 
@@ -74,8 +75,13 @@ html, body {
   width: 100%;
 }
 
+.nav-logo {
+  margin: 20px;
+  height: 60px;
+}
+
 .social-links {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 20px;
   float: right;
 }
@@ -88,9 +94,9 @@ html, body {
   list-style: none;
 }
 
-.nav-logo {
-  margin: 20px;
-  height: 60px;
+.icon {
+  font-size: 40px;
+  color: white;
 }
 
 
@@ -104,6 +110,7 @@ html, body {
 .page-title {
   padding-top: 140px;
   font-size: 55px;
+  font-family: 'Shrikhand';
 }
 
 
@@ -114,8 +121,10 @@ html, body {
   color: #003b40;
   text-align: center;
   font-size: 50px;
-  padding: 10% 10% 0% 10%;
+  padding: 15% 10% 0% 10%;
   display: block;
+  font-family: 'Varela+Round', sans-serif;
+  font-style: italic;
 }
 
 
@@ -126,8 +135,8 @@ html, body {
  color: #003b40;
  margin-top: -3px;
  font-size: 30px;
- font-family: open sans;
- font-weight: 800;
+ font-family: 'Varela Round', sans-serif;
+ /*font-weight: 400;*/
 }
 
 .section-steps {
@@ -143,11 +152,12 @@ html, body {
 }
 
 .section-step-text {
-  font-family: open sans;
+  font-family: 'Varela Round', sans-serif;
+  /*font-weight: 700;*/
   margin-top: 15px;
   padding: 20px;
   font-size: 30px;
-  color: black;
+  color: #003b40;
 }
 
 .footer-logo {
