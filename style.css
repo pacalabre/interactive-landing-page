@@ -81,18 +81,19 @@ section.inner {
 }
 
 .section-one-logo {
-  padding-top: 70px;
-  height: 150px;
+  margin-top: 4%;
+  padding-top: 20px;
+  height: 100px;
 }
 
 .page-title {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   font-size: 55px;
 }
 
-.section-one-vid {
+/*.section-one-vid {
   margin-top: 70px;
-}
+}*/
 
 .inner {
   margin-top: 0px;
