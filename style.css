@@ -107,6 +107,10 @@ html, body {
   text-align: center;
 }
 
+.section-one-vid {
+  margin-top: 3%;
+}
+
 .page-title {
   padding-top: 140px;
   font-size: 55px;
@@ -136,7 +140,6 @@ html, body {
  margin-top: -3px;
  font-size: 30px;
  font-family: 'Varela Round', sans-serif;
- /*font-weight: 400;*/
 }
 
 .section-steps {
