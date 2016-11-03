@@ -1,24 +1,22 @@
 
-// var ctrl = new ScrollMagic.Controller({
-//     globalSceneOptions: {
-//         triggerHook: 'onLeave'
-//     }
-// });
+var ctrl = new ScrollMagic.Controller({
+    globalSceneOptions: {
+        triggerHook: 'onLeave'
+    }
+});
 
 
 
 
-// $("section").each(function() {
+$("section").each(function() {
+    var name = $(this).attr('id');
+    new ScrollMagic.Scene({
+        triggerElement: this
+    })
+    .setPin(this)
+    .addTo(ctrl);
 
-//     var name = $(this).attr('id');
-
-//     new ScrollMagic.Scene({
-//         triggerElement: this
-//     })
-//     .setPin(this)
-//     .addTo(ctrl);
-
-//  });
+ });
 
 
 
