@@ -6,8 +6,7 @@ var ctrl = new ScrollMagic.Controller({
 });
 
 
-
-
+//WORKING Scroll Magic Code
 $("section").each(function() {
     var name = $(this).attr('id');
     new ScrollMagic.Scene({
