@@ -164,7 +164,7 @@ html, body {
   /*font-weight: 700;*/
   margin-top: 15px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   color: #003b40;
 }
 
@@ -208,6 +208,10 @@ html, body {
         font-size: 20px;
       }
 
+      .section-step-text {
+        font-size: 25px;
+      }
+
     }
 
     /* Medium Devices, Desktops */
@@ -219,6 +223,10 @@ html, body {
 
       .step {
         padding: 7px 0px;
+      }
+
+      .section-step-text {
+        font-size: 30px;
       }
 
 
