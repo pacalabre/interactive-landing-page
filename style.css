@@ -55,7 +55,7 @@ html, body {
 }
 
 .section-header {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: black;
   font-family: 'Shrikhand','Raleway', sans-serif;
@@ -124,7 +124,7 @@ html, body {
 .section-two-text {
   color: #003b40;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   padding: 40% 10% 0% 10%;
   display: block;
   font-family: 'Varela+Round', sans-serif;
@@ -162,16 +162,16 @@ html, body {
 .section-step-text {
   font-family: 'Varela Round', sans-serif;
   /*font-weight: 700;*/
-  margin-top: 15px;
+
   padding: 20px;
-  font-size: 20px;
+  font-size: 15px;
   color: #003b40;
 }
 
 .footer-logo {
   width: 300px;
   margin: 0px auto;
-  padding-top: 20%;
+  padding-top: 250px;
   display: block;
 }
 
@@ -187,16 +187,20 @@ html, body {
       }
 
       .section-two-text {
-        font-size: 35px;
+        font-size: 30px;
         padding-top: 23%;
       }
 
       .section-header {
-        font-size: 50px;
+        font-size: 40px;
       }
 
       .section-three-text {
         font-size: 30px;
+      }
+
+      .section-step-text {
+        margin-top: 15px;
       }
 
       .step-img {
