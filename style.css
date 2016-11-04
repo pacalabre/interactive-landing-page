@@ -124,8 +124,8 @@ html, body {
 .section-two-text {
   color: #003b40;
   text-align: center;
-  font-size: 50px;
-  padding: 15% 10% 0% 10%;
+  font-size: 30px;
+  padding: 40% 10% 0% 10%;
   display: block;
   font-family: 'Varela+Round', sans-serif;
   font-style: italic;
@@ -181,14 +181,28 @@ html, body {
         font-size: 50px;
       }
 
+      .section-two-text {
+        font-size: 35px;
+        padding-top: 30%;
+      }
+
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
 
+      .section-two-text {
+        font-size: 35px;
+      }
+
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
+
+      .section-two-text {
+        font-size: 40px;
+        padding-top: 22%;
+      }
 
     }
