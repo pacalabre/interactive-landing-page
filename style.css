@@ -95,7 +95,7 @@ html, body {
 }
 
 .icon {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 
@@ -113,7 +113,7 @@ html, body {
 
 .page-title {
   padding-top: 140px;
-  font-size: 55px;
+  font-size: 40px;
   font-family: 'Shrikhand';
 }
 
@@ -169,3 +169,26 @@ html, body {
   padding-top: 20%;
   display: block;
 }
+
+/* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+      .icon {
+        font-size: 40px;
+      }
+
+      .page-title {
+        font-size: 50px;
+      }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
