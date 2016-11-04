@@ -17,7 +17,7 @@ $("section").each(function() {
  });
 
 var footerScene = new ScrollMagic.Scene({
-  triggerElement: "#footerTrigger",
+  triggerElement: "#footerTrigger"
 })
 
 .setTween("#element", 0.75, { backgroundColor: '#003b40'})
