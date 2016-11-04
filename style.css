@@ -55,7 +55,7 @@ html, body {
 }
 
 .section-header {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   color: black;
   font-family: 'Shrikhand','Raleway', sans-serif;
@@ -138,7 +138,7 @@ html, body {
 .section-three-text {
  color: #003b40;
  margin-top: -3px;
- font-size: 30px;
+ font-size: 20px;
  font-family: 'Varela Round', sans-serif;
 }
 
@@ -150,8 +150,13 @@ html, body {
   margin-top: 10%;
 }
 
-.step {
-  padding: 15px 0px;
+.step-img {
+  display: none;
+}
+
+.step-h3 {
+  text-align: center;
+  font-size: 25px;
 }
 
 .section-step-text {
@@ -183,7 +188,24 @@ html, body {
 
       .section-two-text {
         font-size: 35px;
-        padding-top: 30%;
+        padding-top: 23%;
+      }
+
+      .section-header {
+        font-size: 50px;
+      }
+
+      .section-three-text {
+        font-size: 30px;
+      }
+
+      .step-img {
+        display: block;
+      }
+
+      .step-h3 {
+        text-align: left;
+        font-size: 20px;
       }
 
     }
@@ -195,6 +217,12 @@ html, body {
         font-size: 35px;
       }
 
+      .step {
+        padding: 7px 0px;
+      }
+
+
+
     }
 
     /* Large Devices, Wide Screens */
@@ -202,7 +230,7 @@ html, body {
 
       .section-two-text {
         font-size: 40px;
-        padding-top: 22%;
+        padding-top: 18%;
       }
 
     }
