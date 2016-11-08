@@ -21,7 +21,7 @@ var footerScene = new ScrollMagic.Scene({
 })
 
 .setTween("#element", 0.75, { backgroundColor: '#003b40'})
-.addIndicators({name: 'animate footer'})
+// .addIndicators({name: 'animate footer'})
 .addTo(ctrl);
 
 
