@@ -139,6 +139,10 @@ a:visited {
   font-style: italic;
 }
 
+#sectionTwoQuote {
+      opacity: 0;
+    }
+
 
 /* Section Three */
 
@@ -270,6 +274,3 @@ a:visited {
 
     }
 
-    #sectionTwoQuote {
-      opacity: 0;
-    }

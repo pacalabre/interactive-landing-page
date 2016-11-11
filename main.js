@@ -18,18 +18,20 @@ $("section").each(function() {
 
 
 var sectionTwoQuote = new ScrollMagic.Scene({
-    triggerElement: "#sectionTwoQuoteTrigger"
+  triggerElement: "#two"
+    // duration: 300
 })
-.setTween('#sectionTwoQuote', 1, {opacity: 1})
+.setTween('#sectionTwoQuote', 2, {opacity: 1})
 .addIndicators({name: 'section2'})
 .addTo(ctrl);
+
 
 var footerScene = new ScrollMagic.Scene({
   triggerElement: "#footerTrigger"
 })
 
 .setTween("#sectionLogo", 0.75, { backgroundColor: '#003b40'})
-// .addIndicators({name: 'animate footer'})
+.addIndicators({name: 'animate footer'})
 .addTo(ctrl);
 
 
