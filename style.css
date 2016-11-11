@@ -170,10 +170,13 @@ a:visited {
 .section-step-text {
   font-family: 'Varela Round', sans-serif;
   /*font-weight: 700;*/
-
   padding: 20px;
   font-size: 15px;
   color: #003b40;
+}
+
+.process-img {
+  height: 200px;
 }
 
 .footer-logo {
@@ -265,4 +268,8 @@ a:visited {
         font-size: 25px;
       }
 
+    }
+
+    #sectionTwoQuote {
+      opacity: 0;
     }

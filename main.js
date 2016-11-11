@@ -1,26 +1,34 @@
 var ctrl = new ScrollMagic.Controller({
-    globalSceneOptions: {
-        triggerHook: 'onLeave'
-    }
+    // globalSceneOptions: {
+    //     triggerHook: 'onLeave'
+    // }
 });
-
 
 //WORKING Scroll Magic Code
 $("section").each(function() {
     var name = $(this).attr('id');
     new ScrollMagic.Scene({
-        triggerElement: this
+        triggerElement: this,
+        triggerHook: 'onLeave'
     })
     .setPin(this)
     .addTo(ctrl);
-
  });
+
+
+
+var sectionTwoQuote = new ScrollMagic.Scene({
+    triggerElement: "#sectionTwoQuoteTrigger"
+})
+.setTween('#sectionTwoQuote', 1, {opacity: 1})
+.addIndicators({name: 'section2'})
+.addTo(ctrl);
 
 var footerScene = new ScrollMagic.Scene({
   triggerElement: "#footerTrigger"
 })
 
-.setTween("#element", 0.75, { backgroundColor: '#003b40'})
+.setTween("#sectionLogo", 0.75, { backgroundColor: '#003b40'})
 // .addIndicators({name: 'animate footer'})
 .addTo(ctrl);
 
